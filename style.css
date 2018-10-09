@@ -1,0 +1,13 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.navbar-image {
+    border-radius: 10px;
+    /* border-block-end: 10px; */
+}
+
+nav {
+    border-style: solid;
+    border-top-color: yellow;
+}
