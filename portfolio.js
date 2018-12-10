@@ -8,7 +8,7 @@ imgDiv.appendChild(image);
 
 const introText = document.createElement("p");
 introText.setAttribute('id', "para-1");
-introText.innerHTML = "My name is Richard Obaseki, I am a curious minded person who is always fascinated with technology. I am a programmer and I hope to be a full stack developer soon. I have a high school degree and I will be continuing my higher education for my Bachelors and so on. I love traveling and I haven't done much in that area but I still have chances to do so. Contact me if you are looking for a developer who is always eager to learn.";
+introText.innerHTML = "Hi I'm Richard Obaseki, a curious minded person who likes to learn new things. I am a programmer and I hope to be a full stack developer soon. I have a high school degree. I am from Benin city, Edo state, Nigeria and I currently live in Lagos. I speak Bini and Yoruba.  I love traveling, Learning, and practicing my skills. Contact me for freelance projects.";
 imgDiv.appendChild(introText);
 
 const connectDiv = document.getElementById("connect-div");
@@ -21,6 +21,7 @@ connectDiv.appendChild(connectText);
 const connectImgDiv = document.getElementById("connect-img");
 const connectSource_1 = document.createElement("a");
 connectSource_1.setAttribute("href", "https://github.com/ririob");
+connectSource_1.setAttribute("target", "_blank");
 const connectImg_1 = document.createElement("img");
 connectImg_1.setAttribute("src", "images/github.png");
 connectImg_1.setAttribute("alt", "Responsive image");
@@ -30,6 +31,7 @@ connectImgDiv.appendChild(connectSource_1);
 
 const connectSource_2 = document.createElement("a");
 connectSource_2.setAttribute("href", "https://www.linkedin.com/in/richard-obaseki-812588165/");
+connectSource_2.setAttribute("target", "_blank");
 const connectImg_2 = document.createElement("img");
 connectImg_2.setAttribute("src", "images/linkedin.png");
 connectImg_2.setAttribute("alt", "Responsive image");
@@ -39,6 +41,7 @@ connectImgDiv.appendChild(connectSource_2);
 
 const connectSource_3 = document.createElement("a");
 connectSource_3.setAttribute("href", "https://stackoverflow.com/users/10089955/richard-obaseki");
+connectSource_3.setAttribute("target", "_blank");
 const connectImg_3 = document.createElement("img");
 connectImg_3.setAttribute("src", "images/stackoverflow.png");
 connectImg_3.setAttribute("alt", "Responsive image");
