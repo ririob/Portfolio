@@ -42,12 +42,18 @@ body {
     padding-right: 20px;
     border-radius: 20px;
 }
+#connect-img {
+    margin: 10px auto;
+}
 /* settings for main body background */
 #section-foo {
     background-color: #4aaaa5;
 }
 #section-bar {
     background-color: #333;
+}
+#section-baz {
+    background-color: black;
 }
 /* settings for all text */
 #connect-text {
@@ -80,4 +86,11 @@ body {
     margin-bottom: 20px;
     margin: 0 10px 0 0;
     width: 30px;
+}
+/* footer */
+.footer {
+    color: #4aaaa5
+}
+#main-wrapper {
+    margin: 10px auto;
 }
