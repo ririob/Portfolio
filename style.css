@@ -1,13 +1,83 @@
 .selector-for-some-widget {
-  box-sizing: content-box;
+    box-sizing: content-box;
 }
-
-.navbar-image {
-    border-radius: 10px;
-    /* border-block-end: 10px; */
+body {
+    /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+    font-family: 'Anton', sans-serif;
 }
-
-nav {
-    border-style: solid;
-    border-top-color: yellow;
+/* settings for nav items */
+/* .affix {
+    top: 0px;
+    margin: 0px 20px;
+}
+.affix + .container {
+    padding: 5px;
+} */
+.navigation {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#navbar {
+    background-color: #333;
+}
+#about-page,
+#home-page,
+#contact-page,
+#brand-name {
+    color: #4aaaa5;
+    background: none;
+    text-shadow: none;
+}
+.navbar-toggler {
+    color: pink;
+}
+/* settings for images */
+#my-logo{
+    width: 1200px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-right: 10px auto;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+/* settings for main body background */
+#section-foo {
+    background-color: #4aaaa5;
+}
+#section-bar {
+    background-color: #333;
+}
+/* settings for all text */
+#connect-text {
+    text-align: center;
+    color: #4aaaa5;
+}
+#para-1 {
+    font-display: bold;
+    font-size: 20px;
+}
+/* .img-thumbnail_1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+}
+.img-thumbnail_2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+} */
+.wrapper {
+    text-align: center;
+}
+.img-thumbnail_1,
+.img-thumbnail_2,
+.img-thumbnail_3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 0 10px 0 0;
+    width: 30px;
 }
