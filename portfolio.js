@@ -1,3 +1,4 @@
+// JS For About Page
 const imgDiv = document.getElementById("img-div");
 const image = document.createElement("img");
 image.setAttribute("src", "images/mylogo.jpg");
@@ -56,7 +57,7 @@ const footerInnerDiv = document.createElement("div");
 footerInnerDiv.setAttribute("class", "row");
 footerDiv.append(footerInnerDiv);
 const footerColDiv = document.createElement("div");
-footerColDiv.setAttribute("class", "col-md-12 xs-12");
+footerColDiv.setAttribute("class", "col-md-12 xs-12 lg-12 sm-12");
 footerInnerDiv.append(footerColDiv);
 const footerMainDiv = document.createElement("div");
 footerMainDiv.setAttribute("class", "wrapper");
@@ -69,4 +70,33 @@ const footerContents = "Created by RICHARD OBASEKI. All Rights Reserved!";
 footerSelfDiv.append(footerContents);
 // document.body.innerHTML += footerDiv;
 document.getElementById("body").appendChild(footerDiv);
-console.log(footerDiv);
+
+// JS for portfolio Page
+// First I'm Creating a div to hold main contents
+const portfolioMainDiv = document.createElement("div");
+// Here I'm assigning a class named "container-fluid" to contain main contents
+portfolioMainDiv.setAttribute("class", "container-fluid");
+// Here I'm adding an ID named "section-p-foo"
+portfolioMainDiv.setAttribute("id", "section-p-foo");
+// Creating a div to set the bootstrap row
+const portfolioRowDiv = document.createElement("div");
+// Assigning a class of "row" to the div
+portfolioRowDiv.setAttribute("class", "row");
+// Appending the row div to the container div
+portfolioMainDiv.append(portfolioRowDiv);
+// Creating a div to set the bootstrap column
+const portfolioColDiv = document.createElement("div");
+// assigning a class of columns to the div
+portfolioColDiv.setAttribute("class", "col-lg-12 md-12 sm-12 xs-12");
+// appending the column div to the row div
+portfolioRowDiv.append(portfolioColDiv);
+// creating a wrapper div to hold the actual contents of the page
+const portfolioWrapperDiv = document.createElement("div");
+// assigning a class of wrapper to the div
+portfolioWrapperDiv.setAttribute("class", "wrapper");
+// assigning an ID to the wrapperdiv
+portfolioWrapperDiv.setAttribute("id", "wrapper-foo");
+// appending the wrapper div to the column div
+portfolioColDiv.append(portfolioWrapperDiv);
+// logging my work to keep track of things
+console.log(portfolioMainDiv);
